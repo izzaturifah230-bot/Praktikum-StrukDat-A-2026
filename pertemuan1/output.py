@@ -1,21 +1,22 @@
-print("Hello World!")
+print("Halo dunia")
 
-print("Hello World!")
-print("I am learning Python.")
-print("It is awesome!")
+print("Ini contoh program sederhana")
+print("aku sedang belajar Python")
+print("Bahasanya mudah dipahami")
 
-print("This will work!")
-print('This will also work!')
+print("Baris ini bisa dijalankan")
+print('Baris ini juga bisa')
 
-print("Hello World!", end=" ")
-print("I will print on the same line.")
+print("Teks ini", end=" ")
+print("tampilkan satu baris")
 
-print(3)
-print(358)
-print(50000)
+print(5)
+print(120)
+print(45000)
 
-print(3 + 3)
-print(2 * 5)
+print(6 + 4)
+print(2 * 7)
 
-print("I am", 35, "years old.")
+print("umurku", 18, "tahun")
+
 

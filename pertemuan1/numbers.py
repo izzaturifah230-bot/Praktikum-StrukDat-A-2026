@@ -1,22 +1,22 @@
-#tipe data angka
-x = 1    # int
-y = 2.8  # float
-z = 1j   # 
+# tipe data angka
+x = 7      # int
+y = 5.6    # float
+z = 2j     # 
 print(type(x))
 print(type(y))
 print(type(z))
 
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
+x = 7      # int
+y = 5.6    # float
+z = 2j     # complex
 
-#convert from int to float:
+# konversi dari int ke float
 a = float(x)
 
-#convert from float to int:
+# konversi dari float ke int
 b = int(y)
 
-#convert from int to complex:
+# konversi dari int ke complex
 c = complex(x)
 
 print(a)
@@ -27,7 +27,7 @@ print(type(a))
 print(type(b))
 print(type(c))
 
-#bisa import angka random
+# bisa import angka random
 import random
 
-print(random.randrange(1, 10))
+print(random.randrange(5, 15))

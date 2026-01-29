@@ -6,11 +6,11 @@ a = 200
 b = 33
 
 if b > a:
-  print("b is greater than a")
+  print("b lebih besar dari a")
 else:
-  print("b is not greater than a")
+  print("b tidak lebih besar dari a")
 
-#varibel kosong nilainya false
+# variabel kosong dianggap false
 bool(False)
 bool(None)
 bool(0)
@@ -19,29 +19,29 @@ bool(())
 bool([])
 bool({})
 
-# 0 berarti false
-class myclass():
+# nilai 0 berarti false
+class MyClass():
   def __len__(self):
     return 0
 
-myobj = myclass()
-print(bool(myobj))
+objek = MyClass()
+print(bool(objek))
 
-#fungsi dapat mengengembalikan nilai boolean
-def myFunction() :
+# fungsi bisa mengembalikan nilai boolean
+def cekNilai():
   return True
 
-print(myFunction())
+print(cekNilai())
 
-#bisa mengeksekusi berdasrakan boolean fungsi
-def myFunction() :
+# bisa mengeksekusi kode berdasarkan hasil boolean dari fungsi
+def cekNilai():
   return True
 
-if myFunction():
-  print("YES!")
+if cekNilai():
+  print("YA")
 else:
-  print("NO!")
+  print("TIDAK")
 
-#mengidentifikasi tipe data 
+# mengecek tipe data
 x = 200
 print(isinstance(x, int))

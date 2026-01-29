@@ -1,20 +1,19 @@
-# comment mulai dari #
-#This is a comment
-print("Hello, World!")
+# komentar dimulai dengan tanda #
+# Ini adalah komentar
+print("Halo, Dunia!")
 
-#comment bisa pake disamping line
-print("Hello, World!") #This is a comment
+# komentar bisa ditulis di samping baris kode
+print("Halo, Dunia!") # Ini adalah komentar
 
-#bisa pipakai untuk menghindari code di eksekusi
-#print("Hello, World!")
-print("Cheers, Mate!")
+# bisa dipakai untuk mencegah kode dijalankan
+# print("Halo, Dunia!")
+print("Salam, Kawan!")
 
-#comment untuk banyak baris
+# komentar untuk banyak baris
 """
-This is a comment
-written in
-more than just one line
+Ini adalah komentar
+yang ditulis
+lebih dari satu baris
 """
-print("Hello, World!")
-
+print("Halo, Dunia!")
 

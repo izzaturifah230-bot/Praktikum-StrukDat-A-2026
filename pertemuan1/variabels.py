@@ -1,64 +1,64 @@
 x = 5
-y = "John"
+y = "Izza"
 print(x)
 print(y)
 
-x = 4       # x is of type int
-x = "Sally" # x is now of type str
+x = 4        # x bertipe integer
+x = "Izza"   # x sekarang bertipe string
 print(x)
 
-#casting
-x = str(3)    # x will be '3'
-y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0
+# casting (konversi tipe data)
+x = str(3)     # x menjadi '3'
+y = int(3)     # y menjadi 3
+z = float(3)   # z menjadi 3.0
 
-#melihat tipe data 
+# melihat tipe data
 x = 5
-y = "John"
+y = "Izza"
 print(type(x))
 print(type(y))
 
-# " dan ' sama
-x = "John"
-# is the same as
-x = 'john'
+# tanda " dan ' itu sama
+x = "Izza"
+# sama dengan
+x = 'Izza'
 
-#python itu bahsa yang sensitif dngn case
+# Python sensitif terhadap huruf besar dan kecil
 a = 4
-A = "Sally" #merupakan 2 bariabel berbeda
+A = "Izza"    # a dan A adalah variabel yang berbeda
 
-#nama variabel yang benar
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
+# contoh nama variabel yang benar
+nama = "Izza"
+nama_user = "Izza"
+_nama = "Izza"
+namaUser = "Izza"
+NAMA = "Izza"
+nama2 = "Izza"
 
-#bisa memasukkan banyak nilai
-x, y, z = "Orange", "Banana", "Cherry"
+# memasukkan banyak nilai sekaligus
+x, y, z = "Izza", "Izza", "Izza"
 print(x)
 print(y)
 print(z)
 
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
+buah = ["Izza", "Izza", "Izza"]
+x, y, z = buah
 print(x)
 print(y)
 print(z)
 
-#output variabel
-x = "Python is awesome"
+# output variabel
+x = "bahasa"
 print(x)
 
 x = "Python"
-y = "is"
-z = "awesome"
+y = "itu"
+z = "Izza"
 print(x, y, z)
 
 x = "Python "
-y = "is "
-z = "awesome"
+y = "itu "
+z = "Izza"
 print(x + y + z)
 
 x = 5
@@ -66,25 +66,23 @@ y = 10
 print(x + y)
 
 x = 5
-y = "John"
+y = "Izza"
 print(x, y)
 
-#variabel global
-x = "awesome"
+# variabel global
+x = "Izza"
 
 def myfunc():
-  print("Python is " + x)
+    print("Python " + x)
 
 myfunc()
 
-x = "awesome"
-
+x = "Izza"
 
 def myfunc():
-  x = "fantastic"
-  print("Python is " + x)
+    x = "Izza"
+    print("Python" + x)
 
 myfunc()
 
-print("Python is " + x)
-
+print("Python " + x)

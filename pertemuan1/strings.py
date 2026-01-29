@@ -1,32 +1,33 @@
 #membelah string
-b = "Hello, World!"
-print(b[2:5])
+b = "Halo, Dunia!"
+print(b[1:4])
 
 #modifikasi string
-a = "Hello, World!"
+a = "Halo, Dunia!"
 print(a.lower())
-a = "Hello, World!"
+a = "Halo, Dunia!"
 print(a.upper())
 
 #menghapus spasi dan tab
-a = " Hello, World! "
-print(a.strip()) # returns "Hello, World!"
+a = " Halo, Dunia! "
+print(a.strip())  # hasilnya "Halo, Dunia!"
 
 #pengubah string
-a = "Hello, World!"
+a = "Halo, Dunia!"
 print(a.replace("H", "J"))
 
 #membagi string jadi list
-a = "Hello, World!"
-print(a.split(",")) # returns ['Hello', ' World!']
+a = "Halo, Dunia!"
+print(a.split(","))  # hasilnya ['Halo', ' Dunia!']
 
 #menggabungkan string
-a = "Hello"
-b = "World"
+a = "Halo"
+b = "Dunia"
 c = a + b
 print(c)
 
-age = 36
-txt = f"My name is John, I am {age}"
+age = 21
+txt = f"Namaku izza, umurku {age}"
 print(txt)
+
 
